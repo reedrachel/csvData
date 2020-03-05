@@ -1,0 +1,12 @@
+#Create a csv class to be reused for multiple projects
+#We want to scale to really really (rigg) large csv files (2gb maybe?)
+#We want to easily retrieve the headers for the csv
+#Create a mySQL 'create table' code from the file
+        #need to know types and lengths of these fields
+#Guess the types and lengths (when required) of each column in csv
+#Count null or blank values in a particular column
+
+class csv:
+
+    def_init_(self): #put all properties of class in the
+        self.var = ''
